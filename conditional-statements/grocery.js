@@ -26,7 +26,7 @@ function grocery(product, city, quantity) {
         },
 
     }
-
+    // check for invalid inputs
     if (!prices[city]) {
         console.log("Invalid city");
         return;
