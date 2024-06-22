@@ -34,10 +34,14 @@ body, ul {
 
 /* Container styles */
 .container {
-    text-align: center;
+    height: 80vh;
+    background-image: url("./stray-kids-2000X1270-wallpaper-mhw1bofp0k59yi36.jpeg");
+    background-size: cover;
+    background-position: center;
+    text-align: left;
     padding: 50px 20px;
+    color: white;
 }
-
 button {
     background-color: #eb1212; /* Blue background */
     border: none;
