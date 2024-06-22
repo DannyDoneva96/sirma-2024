@@ -1,0 +1,72 @@
+/* css reset */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Remove list bullets */
+}
+
+/* Navigation styles */
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: #333;
+    padding: 20px;
+}
+
+.li-nav {
+    text-decoration: none;
+}
+
+.a-nav {
+    text-decoration: none;
+    color: white; /* Change link color */
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.a-nav:hover {
+    background-color: #555; /* Change background on hover */
+    border-radius: 5px;
+}
+
+/* Container styles */
+.container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+button {
+    background-color: #eb1212; /* Blue background */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+a{    text-decoration: none;
+    color: white;
+}
+button:hover {
+    background-color: #555; /* Darker background on hover */
+    color: white;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
