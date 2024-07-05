@@ -25,6 +25,7 @@ body, ul {
     font-size: 1.2em;
     padding: 10px 15px;
     transition: background-color 0.3s ease;
+    text-transform: uppercase;
 }
 
 .a-nav:hover {
@@ -35,9 +36,9 @@ body, ul {
 /* Container styles */
 .container {
     height: 80vh;
-    background-image: url("./stray-kids-2000X1270-wallpaper-mhw1bofp0k59yi36.jpeg");
+    background-image: url("./sirma-2024-2.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: top;
     text-align: left;
     padding: 50px 20px;
     color: white;
