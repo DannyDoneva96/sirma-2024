@@ -401,6 +401,67 @@ ul li a {
     font-family: "Open Sans";
 }
 
-.flex-start-needed{
+.flex-start-needed {
     display: flex;
+}
+
+/* ----------------------------fifth section  ------------------------- */
+
+.fifth {
+    padding: 0px 140px;
+    height: 600px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:30px
+}
+
+.fifth-s-h {
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 43px;
+    color: #212121;
+    font-weight: 400;
+    font-family: "Raleway";
+    text-align: center;
+}
+.fifth-sec-articles{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    margin-top: 30px;
+
+}
+.fifth-s-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+ 
+}
+.sirce-fifth{
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+   
+}
+.icon{
+    color:#ff8b38
+}
+.art-heading{
+    font-size: 20px;
+line-height: 24px;
+color: #333333;
+font-weight: 700;
+font-family: "Open Sans";
+text-align: center;
 }
