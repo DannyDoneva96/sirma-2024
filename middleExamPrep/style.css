@@ -243,12 +243,14 @@ ul li a {
 .square-tab:hover {
     background-color: #ff8b38;
 }
-.desc-sec2-widh{
+
+.desc-sec2-widh {
     /* width: 340px; */
     width: 45%;
 }
+
 .second-sec-heading {
-   
+
     font-size: 20px;
     color: #000000;
     font-weight: 700;
@@ -258,7 +260,7 @@ ul li a {
 }
 
 .second-sec-parag {
-    padding-bottom :15px;
+    padding-bottom: 15px;
     font-size: 14px;
     line-height: 20px;
     color: #333333;
@@ -267,15 +269,99 @@ ul li a {
 }
 
 .download-second-sec {
-    padding:  10px 15px;
+    padding: 10px 15px;
     margin-top: 50px;
     font-size: 15px;
     line-height: 20px;
     color: #ffffff;
     font-weight: 600;
     font-family: "Open Sans";
-    background-color: #ff8b38; 
-    border:none;
+    background-color: #ff8b38;
+    border: none;
 }
 
-.image-second-sec {}
+/* ----------------------------second section  ------------------------- */
+
+.third-sec {
+    padding: 0px 100px;
+    height: 600px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 180px;
+    align-items: center;
+
+}
+
+.img-cont {
+    /* boxshadow */
+}
+
+.third-sec-desc {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+
+
+
+}
+
+.title-s3 {
+    font-size: 20px;
+    line-height: 43px;
+    color: #212121;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.devider {
+    border-top: 3px solid #ff8b38;
+    width: 65px;
+}
+
+.sircle {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.fa-cloud-arrow-up,
+.fa-cloud-arrow-down {
+    padding: 5px;
+    margin: auto;
+    align-items: center;
+    align-self: center;
+    color: #ff8b38;
+}
+
+.s3-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+
+.third-sec-p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878b;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.title-3s {
+    font-size: 14px;
+    line-height: 17px;
+    color: #212121;
+    font-weight: 600;
+    font-family: "Open Sans";
+}
