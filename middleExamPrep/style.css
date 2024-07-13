@@ -1,15 +1,52 @@
 body {
     max-width: 1400px;
+    background-color: aliceblue;
+}
+
+.content-container {
+    padding: 100px;
+}
+
+.main-container {
+    padding: 0px 100px;
+    margin: 0 auto;
+    display: flex;
+
 }
 
 .navigation {
+    padding: 0px 100px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     height: 70px;
     background-color: black;
     color: white;
 }
 
-header {
+.navigation-ul {
+    display: flex;
+    gap: 40px;
+
+}
+
+ul li a {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+}
+
+.logo {
+
+    width: 80px;
+    height: 30px
+}
+
+.header {
+
+    margin: auto;
     height: 710px;
     background-color: black;
     background-image: url(./assets/images/hero-img.png);
@@ -17,4 +54,55 @@ header {
     color: #ffffff;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.main-heading {
+    font-size: 36px;
+    color: #ffffff;
+    font-family: "Raleway";
+}
+
+.logo-hero-sec {
+    width: 180px;
+    height: 60px
+}
+
+
+.social-media-container {
+
+    padding: 0px 100px;
+    display: flex;
+}
+
+.line-item {
+    border-top: 3px solid #fff;
+    width: 60px;
+}
+
+.hero-headings {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.hero-paragraph {
+    opacity: 0.800;
+    font-size: 16px;
+    line-height: 23px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Raleway";
+}
+
+.download-btn {
+    width: 130px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+
 }
