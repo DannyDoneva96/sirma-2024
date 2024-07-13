@@ -1,0 +1,20 @@
+body {
+    max-width: 1400px;
+}
+
+.navigation {
+    display: flex;
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+
+header {
+    height: 710px;
+    background-color: black;
+    background-image: url(./assets/images/hero-img.png);
+    background-position: center;
+    color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
