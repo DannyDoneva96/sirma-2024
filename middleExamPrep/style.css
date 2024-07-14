@@ -19,20 +19,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 
 
 }
 
 /* ----------------------------navigation------------------------- */
-.navigation { 
+.navigation {
     width: 100%;
     height: 70px;
     background-color: black;
     color: white;
 }
+
 .main-content-container {
-max-width: 1400px;  
-  margin:auto;
+    max-width: 1400px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -41,10 +43,10 @@ max-width: 1400px;
 
 }
 
-.nav-container{
-   padding: 0 100px;
-width: 1400px;   
- display: flex;
+.nav-container {
+    padding: 0 100px;
+    width: 1400px;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
@@ -55,6 +57,8 @@ width: 1400px;
     width: 500px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+
 
 }
 
@@ -239,12 +243,13 @@ header {}
 
 
 }
-.sec-2-container{
-     padding: 0px 100px;
-     background-color: #f5f5f5;
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
+
+.sec-2-container {
+    padding: 0px 100px;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .tabs-container {
@@ -324,7 +329,8 @@ header {}
     align-items: center;
 
 }
-.third-sec-container{
+
+.third-sec-container {
     padding: 0px 100px;
     display: flex;
     flex-direction: row;
@@ -517,55 +523,46 @@ header {}
 }
 
 /* ----------------------------sixt section  ------------------------- */
-.pricing {
+
+.sixth {
     height: 880px;
+    background-color: #f5f5f5;
     max-width: 1400px;
-
-    margin: 0 auto;
-    text-align: center;
-    background: #f5f5f5;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-
+    margin: auto;
 }
 
-.container {
+.sixt-cont {
     padding: 0 100px;
+
+    align-items: center;
+    margin: auto;
     display: flex;
     flex-direction: column;
+    gap: 80px;
+}
+
+.center-it {
+    display: flex;
     justify-content: center;
     align-items: center;
-
+    height: 880px;
 }
 
-.price-desk {
+.sep-wrap {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
+
 }
 
-
-
-.price-desk h2 {
-    font-size: 36px;
-    line-height: 43px;
-    color: #212121;
-    font-family: "Raleway";
-    text-align: center;
-}
-
-
-
-.pricing-list {
-
+.articles-price-sec {
     display: flex;
-
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
 }
-
 
 .card {
     width: 300px;
@@ -743,7 +740,7 @@ header {}
     font-family: "Raleway";
 }
 
-.devider-s8{
+.devider-s8 {
     color: #fff;
 }
 
@@ -754,72 +751,81 @@ header {}
     font-weight: 300;
     font-family: "Raleway";
 }
+
 /* ----------------------------nine section  ------------------------- */
 
-.nine{
+.nine {
     height: 600px;
     margin: auto;
     max-width: 1400px;
 }
 
-.nine-cont{
+.nine-cont {
     height: 600px;
-padding: 0 100px;
-display: flex;
-flex-direction: column;
-justify-content: center;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap:30px;
+    gap: 30px;
 
 }
-.input-fields{
-display: flex;
-gap:100px
+
+.input-fields {
+    display: flex;
+    gap: 100px
 }
-.input-fields input{
+
+.input-fields input {
     width: 500px;
-    border:none;
+    border: none;
     border-bottom: #66666638 1px solid;
     height: 60px;
-    }
-.first-three-inputs{
+}
+
+.first-three-inputs {
     display: flex;
-flex-direction: column; 
+    flex-direction: column;
 
 }
 
 .message-input-contactS {
     border-bottom: #66666638 1px solid;
 }
+
 .message-input-contactS input {
-    border:none
+    border: none
 }
+
 /* ----------------------------footer ------------------------- */
 
 
-.soc-media-fot i{
+.soc-media-fot i {
     font-size: 24px;
-color: #cccccc;
+    color: #cccccc;
 
 }
-.soc-media-foot{
+
+.soc-media-foot {
     font-size: 24px;
     color: #cccccc;
     display: flex;
     justify-content: space-between;
     width: 307px;
 }
-.offic-footer{
+
+.offic-footer {
     height: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: black;
-    gap:10px
-
+    gap: 10px
 }
-.foot-p{opacity: 0.502;
+
+.foot-p {
+    opacity: 0.502;
     font-size: 12px;
     color: #ffffff;
     font-weight: 400;
