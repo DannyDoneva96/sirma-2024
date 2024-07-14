@@ -730,3 +730,54 @@ header {}
     font-weight: 300;
     font-family: "Raleway";
 }
+/* ----------------------------nine section  ------------------------- */
+
+.nine{
+    height: 600px;
+    margin: auto;
+    max-width: 1400px;
+}
+
+.nine-cont{
+    height: 600px;
+padding: 0 100px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+    align-items: center;
+    gap:30px;
+
+}
+.input-fields{
+display: flex;
+gap:100px
+}
+.input-fields input{
+    width: 500px;
+    border:none;
+    border-bottom: #66666638 1px solid;
+    height: 60px;
+    }
+.first-three-inputs{
+    display: flex;
+flex-direction: column; 
+
+}
+
+.message-input-contactS {
+    border-bottom: #66666638 1px solid;
+}
+.message-input-contactS input {
+    border:none
+}
+/* ----------------------------footer ------------------------- */
+
+
+.soc-media-fot i{
+    font-size: 24px;
+color: #cccccc;
+
+}
+.offic-footer{
+    
+}
